@@ -1,4 +1,4 @@
-# 📋 TaskFlow - Productivity Dashboard
+<img width="1920" height="1080" alt="Screenshot (314)" src="https://github.com/user-attachments/assets/d0c8cb7a-ddbf-4065-b80a-f30970e8e613" /># 📋 TaskFlow - Productivity Dashboard
 
 A modern **To-Do List Web Application** built using **HTML5, CSS3, JavaScript (ES6), and Local Storage API**. The application provides a clean dashboard interface for managing daily tasks with full CRUD functionality and persistent data storage.
 
@@ -63,7 +63,8 @@ todo-dashboard/
 │
 ├── assets/
 │   ├── logo.png
-│   └── screenshots/
+│   ├──dashboard.png
+|   ├──carkmode.png
 ```
 
 ---
@@ -93,15 +94,6 @@ index.html
 or use the **Live Server** extension in Visual Studio Code.
 
 ---
-
-## 📸 Screenshots
-
-```
-home.png
-dashboard.png
-dark-mode.png
-mobile.png
-```
 ---
 
 ## 📱 Responsive Design
