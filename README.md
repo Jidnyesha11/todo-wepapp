@@ -63,7 +63,8 @@ todo-dashboard/
 │
 ├── assets/
 │   ├── logo.png
-│   └── screenshots/
+│   ├──dashboard.png
+|   ├──darkmode.png
 ```
 
 ---
@@ -94,14 +95,9 @@ or use the **Live Server** extension in Visual Studio Code.
 
 ---
 
-## 📸 Screenshots
 
-```
-home.png
-dashboard.png
-dark-mode.png
-mobile.png
-```
+<img width="1920" height="1080" alt="Screenshot (314)" src="https://github.com/user-attachments/assets/d0c8cb7a-ddbf-4065-b80a-f30970e8e613" />
+
 ---
 
 ## 📱 Responsive Design
