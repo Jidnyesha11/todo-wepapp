@@ -74,7 +74,7 @@ todo-dashboard/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/taskflow-dashboard.git
+git clone https://github.com/Jidnyesha11/todo-wepapp.git
 ```
 
 ### Open Project
