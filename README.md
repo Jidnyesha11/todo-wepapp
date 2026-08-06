@@ -96,7 +96,9 @@ or use the **Live Server** extension in Visual Studio Code.
 ---
 
 
-<img width="1920" height="1080" alt="Screenshot (314)" src="https://github.com/user-attachments/assets/d0c8cb7a-ddbf-4065-b80a-f30970e8e613" />
+<img width="920" height="540" alt="Screenshot (314)" src="https://github.com/user-attachments/assets/d0c8cb7a-ddbf-4065-b80a-f30970e8e613" />
+
+<img width="920" height="540" src="asset/dashboard"/>
 
 ---
 
