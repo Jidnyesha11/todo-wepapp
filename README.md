@@ -125,17 +125,6 @@ The application is optimized for:
 - Cloud Database Integration
 
 ---
-
-## 🌐 Live Demo
-
-Deployed using:
-
-- GitHub Pages
-
-```
-https://your-username.github.io/taskflow-dashboard/
-```
-
 ---
 
 ## 👩‍💻 Author
