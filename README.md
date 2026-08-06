@@ -64,7 +64,7 @@ todo-dashboard/
 ├── assets/
 │   ├── logo.png
 │   ├──dashboard.png
-|   ├──carkmode.png
+|   ├──darkmode.png
 ```
 
 ---
