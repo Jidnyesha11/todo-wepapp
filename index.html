@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>TaskFlow | Productivity Dashboard</title>
+
+    <meta name="description"
+        content="Modern To-Do Dashboard with Local Storage">
+
+    <link rel="icon"
+        href="assets/favicon.ico">
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-list-check"></i>
+
+            <h2>TaskFlow</h2>
+
+        </div>
+
+        <nav>
+
+            <a href="#" class="active">
+
+                <i class="fa-solid fa-house"></i>
+
+                Dashboard
+
+            </a>
+
+            <a href="#tasks">
+
+                <i class="fa-solid fa-list"></i>
+
+                Tasks
+
+            </a>
+
+            <a href="#stats">
+
+                <i class="fa-solid fa-chart-simple"></i>
+
+                Statistics
+
+            </a>
+
+            <a href="#settings">
+
+                <i class="fa-solid fa-gear"></i>
+
+                Settings
+
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <main class="main-content">
+
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>
+
+                    Good Morning 👋
+
+                </h1>
+
+                <p>
+
+                    Stay productive and organize your work.
+
+                </p>
+
+            </div>
+
+            <div class="top-actions">
+
+                <input
+                    type="text"
+                    id="searchTask"
+                    placeholder="Search task...">
+
+                <button id="themeToggle">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <section id="stats"
+            class="stats">
+
+            <div class="stat-card">
+
+                <h3>Total Tasks</h3>
+
+                <h2 id="totalTasks">0</h2>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>Completed</h3>
+
+                <h2 id="completedTasks">0</h2>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>Pending</h3>
+
+                <h2 id="pendingTasks">0</h2>
+
+            </div>
+
+        </section>
+
+
+        <section class="progress-card">
+
+            <h2>Today's Progress</h2>
+
+            <div class="progress-bar">
+
+                <div
+                    class="progress-fill"
+                    id="progressFill"></div>
+
+            </div>
+
+            <p>
+
+                <span id="progressText">
+
+                    0%
+
+                </span>
+
+                Completed
+
+            </p>
+
+        </section>
+
+
+        <section
+            class="task-form">
+
+            <h2>Add New Task</h2>
+
+            <form id="taskForm">
+
+                <input
+                    type="text"
+                    id="taskTitle"
+                    placeholder="Task title"
+                    required>
+
+                <textarea
+                    id="taskDescription"
+                    placeholder="Task description"></textarea>
+
+                <div class="form-row">
+
+                    <select id="taskPriority">
+
+                        <option value="High">
+                            High Priority
+                        </option>
+
+                        <option value="Medium">
+                            Medium Priority
+                        </option>
+
+                        <option value="Low">
+                            Low Priority
+                        </option>
+
+                    </select>
+
+                    <input
+                        type="date"
+                        id="taskDate">
+
+                </div>
+
+                <button type="submit">
+
+                    <i class="fa-solid fa-plus"></i>
+
+                    Add Task
+
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section class="filters">
+
+            <button
+                class="filter-btn active"
+                data-filter="all">
+
+                All
+
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="completed">
+
+                Completed
+
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="pending">
+
+                Pending
+
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="high">
+
+                High Priority
+
+            </button>
+
+        </section>
+
+
+        <section
+            id="tasks"
+            class="task-list">
+
+
+        </section>
+
+    </main>
+
+</div>
+
+
+<button
+    class="floating-btn">
+
+    <i class="fa-solid fa-plus"></i>
+
+</button>
+
+
+<div
+    id="toast">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
