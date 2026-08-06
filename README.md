@@ -62,7 +62,6 @@ todo-dashboard/
 │── LICENSE
 │
 ├── assets/
-│   ├── favicon.ico
 │   ├── logo.png
 │   └── screenshots/
 ```
@@ -97,27 +96,12 @@ or use the **Live Server** extension in Visual Studio Code.
 
 ## 📸 Screenshots
 
-Create:
-
-```text
-assets/screenshots/
-```
-
-Example:
-
 ```
 home.png
 dashboard.png
 dark-mode.png
 mobile.png
 ```
-
-Add them in README:
-
-```markdown
-![Dashboard](assets/screenshots/dashboard.png)
-```
-
 ---
 
 ## 📱 Responsive Design
@@ -149,8 +133,6 @@ The application is optimized for:
 Deployed using:
 
 - GitHub Pages
-
-Replace:
 
 ```
 https://your-username.github.io/taskflow-dashboard/
